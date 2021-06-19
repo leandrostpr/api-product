@@ -12,7 +12,6 @@ namespace ApiProduto.Controllers
     public class ProdutosController : ControllerBase
     {
         private readonly AppDbContext _context;
-
         public ProdutosController(AppDbContext context)
         {
             _context = context;
